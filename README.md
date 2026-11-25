@@ -1,4 +1,4 @@
-# SAP Process Knowledge Base
+# SAP Procurement Process Knowledge Base
 
 > 基于 SAP 培训资料整理。当前字段、权限、组织值和状态流转必须在 SAP 中验证。
 
@@ -40,6 +40,17 @@
 - [创建特殊采购订单与交货](docs/purchasing/17-create-special-purchase-orders.md)
 - [使用 ME57 分配 BANF 并创建采购订单](docs/purchasing/18-convert-purchase-requisitions-me57.md)
 - [委外加工供料与外部库存检查](docs/purchasing/19-subcontracting-component-delivery.md)
+- [维护委外供料供应商主数据](docs/purchasing/20-maintain-subcontracting-vendor-master.md)
+- [维护委外采购及供料组件材料主数据](docs/purchasing/21-maintain-subcontracting-material-master.md)
+- [无材料号采购信息记录及参数化服务编码](docs/purchasing/22-info-records-without-material-number.md)
+- [创建带开票的跨公司采购订单](docs/purchasing/23-create-intercompany-purchase-order.md)
+- [创建采购信息记录](docs/purchasing/24-create-purchasing-info-record.md)
+- [修改、显示及删除标识采购信息记录](docs/purchasing/25-change-display-delete-info-record.md)
+- [创建已科目分配的采购申请](docs/purchasing/26-create-account-assigned-requisition.md)
+- [将已科目分配 BANF 转为采购订单](docs/purchasing/27-convert-account-assigned-requisition.md)
+- [手工创建成本中心或固定资产采购订单](docs/purchasing/28-create-manual-account-assigned-order.md)
+- [批量导出及导入采购信息记录价格条件](docs/purchasing/29-mass-maintain-purchasing-conditions.md)
+- [使用 MEKP 批量调整采购信息记录价格](docs/purchasing/30-change-info-record-prices-mekp.md)
 
 ### 物料计划 / MRP
 
@@ -59,6 +70,104 @@
 - [显示与搜索文档](docs/pdm/05-display-search-document.md)
 - [显示与搜索材料](docs/pdm/06-material-display-search-mm03.md)
 - [材料主数据工作流](docs/pdm/07-material-workflow.md)
+
+### 采购催交与沟通
+
+- [催交逾期或即将到期采购订单](docs/purchasing-communications/01-remind-overdue-purchase-orders.md)
+- [催收缺失的订单确认](docs/purchasing-communications/02-remind-missing-order-confirmations.md)
+- [催收合同与询价报价](docs/purchasing-communications/03-remind-contracts-and-rfqs.md)
+
+### 材料主数据
+
+- [将现有材料扩展至工厂采购、MRP 与会计视图](docs/material-master/01-extend-material-to-plant.md)
+
+### 供应商主数据
+
+- [将现有供应商扩展至公司代码和采购组织](docs/supplier-master/01-extend-vendor-to-company-and-purchasing-org.md)
+- [维护供应商采购文本及语言版本](docs/supplier-master/02-maintain-vendor-purchasing-texts.md)
+- [创建供应商并监控主数据工作流](docs/supplier-master/03-create-vendor-and-monitor-workflow.md)
+
+### 供应商质量
+
+- [年度供应商评价与历史数据归档](docs/supplier-quality/01-archive-annual-supplier-evaluation.md)
+
+### 供应商退货
+
+- [从质量工作项创建供应商退货](docs/supplier-returns/01-create-supplier-return-from-qm-workitem.md)
+- [在退货订单中增加替代交货项目](docs/supplier-returns/02-add-replacement-delivery-to-return-order.md)
+
+### 发运
+
+- [手工创建无订单引用的发货单](docs/shipping/01-create-delivery-without-reference.md)
+
+### 合同
+
+- [准备中央采购合同的跨组织主数据](docs/contracts/01-prepare-central-contract-master-data.md)
+- [创建中央数量合同](docs/contracts/02-create-central-quantity-contract.md)
+- [重复输出中央合同](docs/contracts/03-repeat-central-contract-output.md)
+- [创建工厂级数量合同](docs/contracts/04-create-plant-level-quantity-contract.md)
+- [维护合同货源清单并监控合同调用量](docs/contracts/05-maintain-source-list-and-monitor-contract-usage.md)
+- [维护框架协议监控阈值](docs/contracts/06-maintain-contract-monitoring-thresholds.md)
+- [使用自定义报表监控框架协议](docs/contracts/07-monitor-framework-agreements.md)
+- [保存并调用框架协议监控变式](docs/contracts/08-save-contract-monitor-variant.md)
+- [维护框架协议状态自定义表](docs/contracts/09-maintain-framework-agreement-status.md)
+
+### 物料计划 / MRP
+
+- [手动启动项目 MRP 计划运行](docs/material-planning/03-run-project-mrp-md51.md)
+- [在 MD04 中将计划订单转换为 BANF 或生产订单](docs/material-planning/04-convert-planned-order-in-md04.md)
+- [运行单项多层 MRP 并使用 MD06 处理计划清单](docs/material-planning/05-run-net-change-and-worklist-md04-md06.md)
+- [维护材料货源清单与固定供应源](docs/material-planning/06-maintain-source-list.md)
+- [从信息记录或合同生成货源清单记录](docs/material-planning/07-generate-source-list-records.md)
+
+### 库存与消耗分析
+
+- [运行 XYZ 分析并更新材料分类](docs/analysis/01-run-xyz-analysis.md)
+- [查询与分析 XYZ 分类结果](docs/analysis/02-evaluate-xyz-results.md)
+- [维护 XYZ 分类阈值](docs/analysis/03-maintain-xyz-thresholds.md)
+- [结合 ABC 与 XYZ 分析制定物料计划策略](docs/analysis/04-compare-abc-and-xyz-analysis.md)
+
+### 工程变更与 BOM
+
+- [维护委外供料 BOM 项目标识](docs/pdm/08-maintain-subcontracting-bom-flags.md)
+- [使用变更号修改委外供料 BOM](docs/pdm/09-change-subcontracting-bom-with-ecn.md)
+- [执行材料主数据工程变更工作流](docs/pdm/10-run-material-master-change-workflow.md)
+
+### 审批策略
+
+- [分析采购审批策略的特征与分类](docs/release-strategy/01-analyze-release-characteristics.md)
+- [使用 CL20N 调整 BANF 与采购订单审批策略](docs/release-strategy/02-change-purchase-release-strategy-cl20n.md)
+- [批量审批已科目分配的采购申请](docs/release-strategy/03-release-account-assigned-requisitions.md)
+- [单笔审批、拒绝或撤销采购申请](docs/release-strategy/04-single-release-reject-requisition.md)
+- [批量审批采购订单](docs/release-strategy/05-mass-release-purchase-orders.md)
+- [单笔审批、拒绝或撤销采购订单](docs/release-strategy/06-single-release-reject-purchase-order.md)
+
+### 报表与布局
+
+- [调整、保存并选择 ALV 列表布局](docs/reporting/01-customize-save-select-alv-layout.md)
+- [按材料、供应商、科目分配或提交号搜索采购凭证](docs/reporting/02-search-purchasing-documents.md)
+- [采购与主数据 Transaction Code 参考](docs/reporting/03-transaction-code-reference.md)
+
+### 输出管理 DOM
+
+- [监控 DOM Trigger 处理状态](docs/output-management/01-monitor-dom-trigger.md)
+- [处理和删除 DOM 工作列表消息](docs/output-management/02-edit-dom-worklist.md)
+- [重复发送或手工创建 DOM 输出消息](docs/output-management/03-repeat-create-dom-output.md)
+- [手工打印或生成 PDF 的 DOM 输出](docs/output-management/04-manual-dom-print-pdf.md)
+- [DOM 功能范围、监控入口与状态判断](docs/output-management/05-dom-training-overview.md)
+- [配置经典采购消息控制条件记录](docs/output-management/06-configure-classic-message-control-nace.md)
+- [采购消息媒介与发送时点参考](docs/output-management/07-message-medium-and-dispatch-time-reference.md)
+
+### 标准文本
+
+- [创建及维护多语言标准文本](docs/text-management/01-create-maintain-standard-texts.md)
+- [在采购凭证中插入标准文本](docs/text-management/02-insert-standard-text-into-purchasing-document.md)
+
+### 个人设置
+
+- [配置 SAP GUI 个人基本设置](docs/user-settings/01-configure-sap-user-settings.md)
+- [设置 SAP 工作流代理人](docs/user-settings/02-set-workflow-substitute.md)
+- [设置 DOM 输出签署权限标识](docs/user-settings/03-set-dom-signature-authority.md)
 
 ## Transaction Code 索引
 
@@ -130,21 +239,82 @@
 | `VL02N` | [19-subcontracting-component-delivery](docs/purchasing/19-subcontracting-component-delivery.md)<br>[06-return-process](docs/sales/06-return-process.md) |
 | `VL10B` | [17-create-special-purchase-orders](docs/purchasing/17-create-special-purchase-orders.md) |
 | `XK02` | [01-block-duplicate-vendor](docs/purchasing/01-block-duplicate-vendor.md) |
+| `/JA41/M_DOM_MON_TRG` | [01-monitor-dom-trigger](docs/output-management/01-monitor-dom-trigger.md)<br>[05-dom-training-overview](docs/output-management/05-dom-training-overview.md) |
+| `/JA41/M_DOM_WORKLIST` | [02-edit-dom-worklist](docs/output-management/02-edit-dom-worklist.md)<br>[05-dom-training-overview](docs/output-management/05-dom-training-overview.md) |
+| `/JA41/M_REPKONTRAKT` | [07-monitor-framework-agreements](docs/contracts/07-monitor-framework-agreements.md)<br>[08-save-contract-monitor-variant](docs/contracts/08-save-contract-monitor-variant.md) |
+| `/JA41/M_RVSTAT` | [09-maintain-framework-agreement-status](docs/contracts/09-maintain-framework-agreement-status.md) |
+| `/JA41/XYZ_01` | [01-run-xyz-analysis](docs/analysis/01-run-xyz-analysis.md)<br>[04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
+| `/JA41/XYZ_02` | [02-evaluate-xyz-results](docs/analysis/02-evaluate-xyz-results.md)<br>[04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
+| `/JA41/XYZ_STAT` | [03-maintain-xyz-thresholds](docs/analysis/03-maintain-xyz-thresholds.md) |
+| `CC01` | [09-change-subcontracting-bom-with-ecn](docs/pdm/09-change-subcontracting-bom-with-ecn.md) |
+| `CC02` | [10-run-material-master-change-workflow](docs/pdm/10-run-material-master-change-workflow.md) |
+| `CC07` | [10-run-material-master-change-workflow](docs/pdm/10-run-material-master-change-workflow.md) |
+| `CL02` | [01-analyze-release-characteristics](docs/release-strategy/01-analyze-release-characteristics.md) |
+| `CL20N` | [02-change-purchase-release-strategy-cl20n](docs/release-strategy/02-change-purchase-release-strategy-cl20n.md) |
+| `CS02` | [08-maintain-subcontracting-bom-flags](docs/pdm/08-maintain-subcontracting-bom-flags.md)<br>[09-change-subcontracting-bom-with-ecn](docs/pdm/09-change-subcontracting-bom-with-ecn.md) |
+| `CS03` | [08-maintain-subcontracting-bom-flags](docs/pdm/08-maintain-subcontracting-bom-flags.md) |
+| `CT04` | [01-analyze-release-characteristics](docs/release-strategy/01-analyze-release-characteristics.md) |
+| `MC40` | [04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
+| `MC41` | [04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
+| `MD04` | [04-convert-planned-order-in-md04](docs/material-planning/04-convert-planned-order-in-md04.md)<br>[05-run-net-change-and-worklist-md04-md06](docs/material-planning/05-run-net-change-and-worklist-md04-md06.md)<br>[05-mass-release-purchase-orders](docs/release-strategy/05-mass-release-purchase-orders.md)<br>[01-create-supplier-return-from-qm-workitem](docs/supplier-returns/01-create-supplier-return-from-qm-workitem.md)<br>[02-add-replacement-delivery-to-return-order](docs/supplier-returns/02-add-replacement-delivery-to-return-order.md)<br>[01-configure-sap-user-settings](docs/user-settings/01-configure-sap-user-settings.md) |
+| `MD06` | [05-run-net-change-and-worklist-md04-md06](docs/material-planning/05-run-net-change-and-worklist-md04-md06.md) |
+| `MD51` | [03-run-project-mrp-md51](docs/material-planning/03-run-project-mrp-md51.md) |
+| `ME01` | [05-maintain-source-list-and-monitor-contract-usage](docs/contracts/05-maintain-source-list-and-monitor-contract-usage.md)<br>[06-maintain-source-list](docs/material-planning/06-maintain-source-list.md)<br>[07-generate-source-list-records](docs/material-planning/07-generate-source-list-records.md) |
+| `ME03` | [06-maintain-source-list](docs/material-planning/06-maintain-source-list.md) |
+| `ME04` | [06-maintain-source-list](docs/material-planning/06-maintain-source-list.md) |
+| `ME11` | [22-info-records-without-material-number](docs/purchasing/22-info-records-without-material-number.md)<br>[24-create-purchasing-info-record](docs/purchasing/24-create-purchasing-info-record.md) |
+| `ME12` | [22-info-records-without-material-number](docs/purchasing/22-info-records-without-material-number.md)<br>[25-change-display-delete-info-record](docs/purchasing/25-change-display-delete-info-record.md)<br>[30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
+| `ME13` | [22-info-records-without-material-number](docs/purchasing/22-info-records-without-material-number.md)<br>[25-change-display-delete-info-record](docs/purchasing/25-change-display-delete-info-record.md)<br>[30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
+| `ME1L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME1M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME21N` | [23-create-intercompany-purchase-order](docs/purchasing/23-create-intercompany-purchase-order.md)<br>[28-create-manual-account-assigned-order](docs/purchasing/28-create-manual-account-assigned-order.md)<br>[02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
+| `ME22N` | [03-repeat-create-dom-output](docs/output-management/03-repeat-create-dom-output.md)<br>[04-manual-dom-print-pdf](docs/output-management/04-manual-dom-print-pdf.md)<br>[02-add-replacement-delivery-to-return-order](docs/supplier-returns/02-add-replacement-delivery-to-return-order.md)<br>[02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
+| `ME28` | [05-mass-release-purchase-orders](docs/release-strategy/05-mass-release-purchase-orders.md) |
+| `ME29N` | [06-single-release-reject-purchase-order](docs/release-strategy/06-single-release-reject-purchase-order.md) |
+| `ME2K` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME2L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME2M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md)<br>[01-create-supplier-return-from-qm-workitem](docs/supplier-returns/01-create-supplier-return-from-qm-workitem.md)<br>[02-add-replacement-delivery-to-return-order](docs/supplier-returns/02-add-replacement-delivery-to-return-order.md) |
+| `ME31K` | [02-create-central-quantity-contract](docs/contracts/02-create-central-quantity-contract.md)<br>[04-create-plant-level-quantity-contract](docs/contracts/04-create-plant-level-quantity-contract.md)<br>[06-maintain-contract-monitoring-thresholds](docs/contracts/06-maintain-contract-monitoring-thresholds.md)<br>[02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
+| `ME32K` | [02-create-central-quantity-contract](docs/contracts/02-create-central-quantity-contract.md)<br>[04-create-plant-level-quantity-contract](docs/contracts/04-create-plant-level-quantity-contract.md)<br>[05-maintain-source-list-and-monitor-contract-usage](docs/contracts/05-maintain-source-list-and-monitor-contract-usage.md)<br>[06-maintain-contract-monitoring-thresholds](docs/contracts/06-maintain-contract-monitoring-thresholds.md) |
+| `ME33K` | [02-create-central-quantity-contract](docs/contracts/02-create-central-quantity-contract.md)<br>[04-create-plant-level-quantity-contract](docs/contracts/04-create-plant-level-quantity-contract.md)<br>[05-maintain-source-list-and-monitor-contract-usage](docs/contracts/05-maintain-source-list-and-monitor-contract-usage.md)<br>[06-maintain-contract-monitoring-thresholds](docs/contracts/06-maintain-contract-monitoring-thresholds.md) |
+| `ME3L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME3M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME41` | [02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
+| `ME42` | [03-repeat-create-dom-output](docs/output-management/03-repeat-create-dom-output.md) |
+| `ME4L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME4M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME4S` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME51N` | [26-create-account-assigned-requisition](docs/purchasing/26-create-account-assigned-requisition.md) |
+| `ME54N` | [04-single-release-reject-requisition](docs/release-strategy/04-single-release-reject-requisition.md) |
+| `ME55` | [03-release-account-assigned-requisitions](docs/release-strategy/03-release-account-assigned-requisitions.md) |
+| `ME57` | [27-convert-account-assigned-requisition](docs/purchasing/27-convert-account-assigned-requisition.md)<br>[01-configure-sap-user-settings](docs/user-settings/01-configure-sap-user-settings.md) |
+| `ME5A` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
+| `ME91A` | [03-remind-contracts-and-rfqs](docs/purchasing-communications/03-remind-contracts-and-rfqs.md) |
+| `ME91F` | [01-remind-overdue-purchase-orders](docs/purchasing-communications/01-remind-overdue-purchase-orders.md) |
+| `ME92F` | [02-remind-missing-order-confirmations](docs/purchasing-communications/02-remind-missing-order-confirmations.md) |
+| `ME92K` | [03-remind-contracts-and-rfqs](docs/purchasing-communications/03-remind-contracts-and-rfqs.md) |
+| `ME9K` | [03-repeat-central-contract-output](docs/contracts/03-repeat-central-contract-output.md) |
+| `MEKP` | [30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
+| `MK01` | [03-create-vendor-and-monitor-workflow](docs/supplier-master/03-create-vendor-and-monitor-workflow.md) |
+| `MK02` | [20-maintain-subcontracting-vendor-master](docs/purchasing/20-maintain-subcontracting-vendor-master.md)<br>[02-maintain-vendor-purchasing-texts](docs/supplier-master/02-maintain-vendor-purchasing-texts.md) |
+| `MK03` | [06-maintain-source-list](docs/material-planning/06-maintain-source-list.md) |
+| `MM01` | [01-prepare-central-contract-master-data](docs/contracts/01-prepare-central-contract-master-data.md)<br>[01-extend-material-to-plant](docs/material-master/01-extend-material-to-plant.md) |
+| `MM02` | [21-maintain-subcontracting-material-master](docs/purchasing/21-maintain-subcontracting-material-master.md) |
+| `NACE` | [06-configure-classic-message-control-nace](docs/output-management/06-configure-classic-message-control-nace.md) |
+| `SBWP` | [10-run-material-master-change-workflow](docs/pdm/10-run-material-master-change-workflow.md)<br>[01-create-supplier-return-from-qm-workitem](docs/supplier-returns/01-create-supplier-return-from-qm-workitem.md)<br>[02-set-workflow-substitute](docs/user-settings/02-set-workflow-substitute.md) |
+| `SO10` | [01-create-maintain-standard-texts](docs/text-management/01-create-maintain-standard-texts.md) |
+| `SOST` | [03-create-vendor-and-monitor-workflow](docs/supplier-master/03-create-vendor-and-monitor-workflow.md) |
+| `SU3` | [01-configure-sap-user-settings](docs/user-settings/01-configure-sap-user-settings.md)<br>[03-set-dom-signature-authority](docs/user-settings/03-set-dom-signature-authority.md) |
+| `VL01NO` | [01-create-delivery-without-reference](docs/shipping/01-create-delivery-without-reference.md) |
+| `VL02N` | [01-create-delivery-without-reference](docs/shipping/01-create-delivery-without-reference.md) |
+| `VL03N` | [01-create-delivery-without-reference](docs/shipping/01-create-delivery-without-reference.md) |
+| `XK01` | [01-prepare-central-contract-master-data](docs/contracts/01-prepare-central-contract-master-data.md)<br>[01-extend-vendor-to-company-and-purchasing-org](docs/supplier-master/01-extend-vendor-to-company-and-purchasing-org.md) |
+| `ZMMKONDITIONEN` | [29-mass-maintain-purchasing-conditions](docs/purchasing/29-mass-maintain-purchasing-conditions.md)<br>[30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
 
-## 来源文件
+## 匿名化规则
 
-- `sources/20180417 Anleitung Kreditor sperren.docx`
-- `sources/2018_09_13_PDM_Handbuch_gesamt.pdf`
-- `sources/2018_11_07-SAL_Handbuch.docx`
-- `sources/2018_12_18_Handbuch_VC-Schlauch.docx`
-- `sources/AZG Dispobereiche im Materialstamm.docx`
-- `sources/Abweichende Kreditorenrollen.docx`
-- `sources/Anfrage anlegen, pflegen, Angebotsvergleich FERTIG.docx`
-- `sources/Auswertungen und Reporting.docx`
-- `sources/BANF erstellen.PDF`
-- `sources/Banf (Standard) anlegen, ändern & anzeigen.docx`
-- `sources/Banfen pro Sachbearbeiter anzeigen.docx`
-- `sources/Bestellbestätigungsmonitor FERTIG.docx`
-- `sources/Bestellung (inkl. Sonder-) anlegen me21n FERTIG.docx`
-- `sources/Bestellung anlegen me57 FERTIG.docx`
-- `sources/Bestellung mit Beistellung Lieferung anlegen FERTIG.docx`
+- 公司名称统一替换为“公司”或“内部”。
+- 人员姓名、品牌、邮箱、电话、本地路径、地点、历史供应商编号和可识别配置不写入流程。
+- 原始附件不纳入 ZIP。
+- 交付前执行全文扫描、链接检查及 ZIP 完整性检查。
+

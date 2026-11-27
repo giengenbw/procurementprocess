@@ -284,9 +284,7 @@
 
 ## Transaction Code 索引
 | Transaction | 流程文件 |
-
 |---|---|
-
 | `/JA41/_BBEST` | [14-monitor-purchase-order-confirmations](docs/purchasing/14-monitor-purchase-order-confirmations.md) |
 
 | `/JA41/_BC_IMG` | [14-monitor-purchase-order-confirmations](docs/purchasing/14-monitor-purchase-order-confirmations.md) |

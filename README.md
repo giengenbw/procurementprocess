@@ -286,277 +286,141 @@
 | Transaction | 流程文件 |
 |---|---|
 | `/JA41/_BBEST` | [14-monitor-purchase-order-confirmations](docs/purchasing/14-monitor-purchase-order-confirmations.md) |
-
 | `/JA41/_BC_IMG` | [14-monitor-purchase-order-confirmations](docs/purchasing/14-monitor-purchase-order-confirmations.md) |
-
 | `CC01` | [01-create-change-number-cc01](docs/pdm/01-create-change-number-cc01.md) |
-
 | `CC02` | [07-material-workflow](docs/pdm/07-material-workflow.md) |
-
 | `CC07` | [07-material-workflow](docs/pdm/07-material-workflow.md) |
-
 | `CH41` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CH42` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CH43` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CS01` | [03-maintain-bom-cs01-cs02](docs/pdm/03-maintain-bom-cs01-cs02.md)<br>[01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CS02` | [03-maintain-bom-cs01-cs02](docs/pdm/03-maintain-bom-cs01-cs02.md)<br>[01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CS03` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CT04` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CU01` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CU02` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CU03` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `CV02N` | [04-document-management-cv02n](docs/pdm/04-document-management-cv02n.md) |
-
 | `CV03N` | [05-display-search-document](docs/pdm/05-display-search-document.md) |
-
 | `CV04N` | [05-display-search-document](docs/pdm/05-display-search-document.md) |
-
 | `M-04` | [03-alternate-invoicing-party](docs/purchasing/03-alternate-invoicing-party.md) |
-
 | `M-06` | [02-alternate-order-address](docs/purchasing/02-alternate-order-address.md) |
-
 | `MC$4` | [13-vendor-purchasing-value-analysis](docs/purchasing/13-vendor-purchasing-value-analysis.md) |
-
 | `MD04` | [02-check-plan-mrp-area](docs/material-planning/02-check-plan-mrp-area.md) |
-
 | `ME1M` | [11-purchasing-list-reports](docs/purchasing/11-purchasing-list-reports.md) |
-
 | `ME21N` | [16-create-manual-purchase-order-me21n](docs/purchasing/16-create-manual-purchase-order-me21n.md)<br>[17-create-special-purchase-orders](docs/purchasing/17-create-special-purchase-orders.md) |
-
 | `ME22N` | [16-create-manual-purchase-order-me21n](docs/purchasing/16-create-manual-purchase-order-me21n.md) |
-
 | `ME23N` | [14-monitor-purchase-order-confirmations](docs/purchasing/14-monitor-purchase-order-confirmations.md)<br>[16-create-manual-purchase-order-me21n](docs/purchasing/16-create-manual-purchase-order-me21n.md) |
-
 | `ME2L` | [11-purchasing-list-reports](docs/purchasing/11-purchasing-list-reports.md) |
-
 | `ME2ON` | [19-subcontracting-component-delivery](docs/purchasing/19-subcontracting-component-delivery.md) |
-
 | `ME3L` | [11-purchasing-list-reports](docs/purchasing/11-purchasing-list-reports.md) |
-
 | `ME41` | [04-create-rfq-me41](docs/purchasing/04-create-rfq-me41.md)<br>[05-copy-rfq-template](docs/purchasing/05-copy-rfq-template.md) |
-
 | `ME42` | [06-change-display-rfq](docs/purchasing/06-change-display-rfq.md) |
-
 | `ME43` | [06-change-display-rfq](docs/purchasing/06-change-display-rfq.md) |
-
 | `ME47` | [07-maintain-display-quotation](docs/purchasing/07-maintain-display-quotation.md) |
-
 | `ME48` | [07-maintain-display-quotation](docs/purchasing/07-maintain-display-quotation.md) |
-
 | `ME49` | [08-quotation-comparison-me49](docs/purchasing/08-quotation-comparison-me49.md) |
-
 | `ME4S` | [11-purchasing-list-reports](docs/purchasing/11-purchasing-list-reports.md) |
-
 | `ME51N` | [09-create-purchase-requisition-me51n](docs/purchasing/09-create-purchase-requisition-me51n.md) |
-
 | `ME52N` | [10-change-display-purchase-requisition](docs/purchasing/10-change-display-purchase-requisition.md) |
-
 | `ME53N` | [10-change-display-purchase-requisition](docs/purchasing/10-change-display-purchase-requisition.md) |
-
 | `ME57` | [18-convert-purchase-requisitions-me57](docs/purchasing/18-convert-purchase-requisitions-me57.md) |
-
 | `ME5A` | [15-list-purchase-requisitions-by-creator](docs/purchasing/15-list-purchase-requisitions-by-creator.md) |
-
 | `ME80FN` | [12-me80fn-delivery-date-report](docs/purchasing/12-me80fn-delivery-date-report.md) |
-
 | `MK02` | [01-block-duplicate-vendor](docs/purchasing/01-block-duplicate-vendor.md)<br>[02-alternate-order-address](docs/purchasing/02-alternate-order-address.md)<br>[03-alternate-invoicing-party](docs/purchasing/03-alternate-invoicing-party.md) |
-
 | `MM01` | [01-extend-material-mrp-area](docs/material-planning/01-extend-material-mrp-area.md)<br>[02-create-material-mm01](docs/pdm/02-create-material-mm01.md) |
-
 | `MM02` | [01-extend-material-mrp-area](docs/material-planning/01-extend-material-mrp-area.md) |
-
 | `MM03` | [06-material-display-search-mm03](docs/pdm/06-material-display-search-mm03.md)<br>[01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `MMBE` | [19-subcontracting-component-delivery](docs/purchasing/19-subcontracting-component-delivery.md) |
-
 | `PMEVC` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `VA01` | [03-create-sales-order-va01](docs/sales/03-create-sales-order-va01.md)<br>[04-order-from-quotation](docs/sales/04-order-from-quotation.md)<br>[05-credit-memo-request](docs/sales/05-credit-memo-request.md)<br>[06-return-process](docs/sales/06-return-process.md) |
-
 | `VA02` | [03-create-sales-order-va01](docs/sales/03-create-sales-order-va01.md)<br>[05-credit-memo-request](docs/sales/05-credit-memo-request.md)<br>[06-return-process](docs/sales/06-return-process.md) |
-
 | `VA03` | [03-create-sales-order-va01](docs/sales/03-create-sales-order-va01.md) |
-
 | `VA05` | [03-create-sales-order-va01](docs/sales/03-create-sales-order-va01.md) |
-
 | `VA05N` | [03-create-sales-order-va01](docs/sales/03-create-sales-order-va01.md) |
-
 | `VA21` | [02-create-quotation-va21](docs/sales/02-create-quotation-va21.md) |
-
 | `VA22` | [02-create-quotation-va21](docs/sales/02-create-quotation-va21.md) |
-
 | `VA23` | [02-create-quotation-va21](docs/sales/02-create-quotation-va21.md) |
-
 | `VA25N` | [02-create-quotation-va21](docs/sales/02-create-quotation-va21.md) |
-
 | `VD01` | [01-create-customer-vd01](docs/sales/01-create-customer-vd01.md) |
-
 | `VF01` | [05-credit-memo-request](docs/sales/05-credit-memo-request.md) |
-
 | `VK11` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `VK12` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `VK13` | [01-hose-variant-configuration](docs/vc/01-hose-variant-configuration.md) |
-
 | `VL01N` | [06-return-process](docs/sales/06-return-process.md) |
-
 | `VL02N` | [19-subcontracting-component-delivery](docs/purchasing/19-subcontracting-component-delivery.md)<br>[06-return-process](docs/sales/06-return-process.md) |
-
 | `VL10B` | [17-create-special-purchase-orders](docs/purchasing/17-create-special-purchase-orders.md) |
-
 | `XK02` | [01-block-duplicate-vendor](docs/purchasing/01-block-duplicate-vendor.md) |
-
 | `/JA41/M_DOM_MON_TRG` | [01-monitor-dom-trigger](docs/output-management/01-monitor-dom-trigger.md)<br>[05-dom-training-overview](docs/output-management/05-dom-training-overview.md) |
-
 | `/JA41/M_DOM_WORKLIST` | [02-edit-dom-worklist](docs/output-management/02-edit-dom-worklist.md)<br>[05-dom-training-overview](docs/output-management/05-dom-training-overview.md) |
-
 | `/JA41/M_REPKONTRAKT` | [07-monitor-framework-agreements](docs/contracts/07-monitor-framework-agreements.md)<br>[08-save-contract-monitor-variant](docs/contracts/08-save-contract-monitor-variant.md) |
-
 | `/JA41/M_RVSTAT` | [09-maintain-framework-agreement-status](docs/contracts/09-maintain-framework-agreement-status.md) |
-
 | `/JA41/XYZ_01` | [01-run-xyz-analysis](docs/analysis/01-run-xyz-analysis.md)<br>[04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
-
 | `/JA41/XYZ_02` | [02-evaluate-xyz-results](docs/analysis/02-evaluate-xyz-results.md)<br>[04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
-
 | `/JA41/XYZ_STAT` | [03-maintain-xyz-thresholds](docs/analysis/03-maintain-xyz-thresholds.md) |
-
 | `CC01` | [09-change-subcontracting-bom-with-ecn](docs/pdm/09-change-subcontracting-bom-with-ecn.md) |
-
 | `CC02` | [10-run-material-master-change-workflow](docs/pdm/10-run-material-master-change-workflow.md) |
-
 | `CC07` | [10-run-material-master-change-workflow](docs/pdm/10-run-material-master-change-workflow.md) |
-
 | `CL02` | [01-analyze-release-characteristics](docs/release-strategy/01-analyze-release-characteristics.md) |
-
 | `CL20N` | [02-change-purchase-release-strategy-cl20n](docs/release-strategy/02-change-purchase-release-strategy-cl20n.md) |
-
 | `CS02` | [08-maintain-subcontracting-bom-flags](docs/pdm/08-maintain-subcontracting-bom-flags.md)<br>[09-change-subcontracting-bom-with-ecn](docs/pdm/09-change-subcontracting-bom-with-ecn.md) |
-
 | `CS03` | [08-maintain-subcontracting-bom-flags](docs/pdm/08-maintain-subcontracting-bom-flags.md) |
-
 | `CT04` | [01-analyze-release-characteristics](docs/release-strategy/01-analyze-release-characteristics.md) |
-
 | `MC40` | [04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
-
 | `MC41` | [04-compare-abc-and-xyz-analysis](docs/analysis/04-compare-abc-and-xyz-analysis.md) |
-
 | `MD04` | [04-convert-planned-order-in-md04](docs/material-planning/04-convert-planned-order-in-md04.md)<br>[05-run-net-change-and-worklist-md04-md06](docs/material-planning/05-run-net-change-and-worklist-md04-md06.md)<br>[05-mass-release-purchase-orders](docs/release-strategy/05-mass-release-purchase-orders.md)<br>[01-create-supplier-return-from-qm-workitem](docs/supplier-returns/01-create-supplier-return-from-qm-workitem.md)<br>[02-add-replacement-delivery-to-return-order](docs/supplier-returns/02-add-replacement-delivery-to-return-order.md)<br>[01-configure-sap-user-settings](docs/user-settings/01-configure-sap-user-settings.md) |
-
 | `MD06` | [05-run-net-change-and-worklist-md04-md06](docs/material-planning/05-run-net-change-and-worklist-md04-md06.md) |
-
 | `MD51` | [03-run-project-mrp-md51](docs/material-planning/03-run-project-mrp-md51.md) |
-
 | `ME01` | [05-maintain-source-list-and-monitor-contract-usage](docs/contracts/05-maintain-source-list-and-monitor-contract-usage.md)<br>[06-maintain-source-list](docs/material-planning/06-maintain-source-list.md)<br>[07-generate-source-list-records](docs/material-planning/07-generate-source-list-records.md) |
-
 | `ME03` | [06-maintain-source-list](docs/material-planning/06-maintain-source-list.md) |
-
 | `ME04` | [06-maintain-source-list](docs/material-planning/06-maintain-source-list.md) |
-
 | `ME11` | [22-info-records-without-material-number](docs/purchasing/22-info-records-without-material-number.md)<br>[24-create-purchasing-info-record](docs/purchasing/24-create-purchasing-info-record.md) |
-
 | `ME12` | [22-info-records-without-material-number](docs/purchasing/22-info-records-without-material-number.md)<br>[25-change-display-delete-info-record](docs/purchasing/25-change-display-delete-info-record.md)<br>[30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
-
 | `ME13` | [22-info-records-without-material-number](docs/purchasing/22-info-records-without-material-number.md)<br>[25-change-display-delete-info-record](docs/purchasing/25-change-display-delete-info-record.md)<br>[30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
-
 | `ME1L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME1M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME21N` | [23-create-intercompany-purchase-order](docs/purchasing/23-create-intercompany-purchase-order.md)<br>[28-create-manual-account-assigned-order](docs/purchasing/28-create-manual-account-assigned-order.md)<br>[02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
-
 | `ME22N` | [03-repeat-create-dom-output](docs/output-management/03-repeat-create-dom-output.md)<br>[04-manual-dom-print-pdf](docs/output-management/04-manual-dom-print-pdf.md)<br>[02-add-replacement-delivery-to-return-order](docs/supplier-returns/02-add-replacement-delivery-to-return-order.md)<br>[02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
-
 | `ME28` | [05-mass-release-purchase-orders](docs/release-strategy/05-mass-release-purchase-orders.md) |
-
 | `ME29N` | [06-single-release-reject-purchase-order](docs/release-strategy/06-single-release-reject-purchase-order.md) |
-
 | `ME2K` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME2L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME2M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md)<br>[01-create-supplier-return-from-qm-workitem](docs/supplier-returns/01-create-supplier-return-from-qm-workitem.md)<br>[02-add-replacement-delivery-to-return-order](docs/supplier-returns/02-add-replacement-delivery-to-return-order.md) |
-
 | `ME31K` | [02-create-central-quantity-contract](docs/contracts/02-create-central-quantity-contract.md)<br>[04-create-plant-level-quantity-contract](docs/contracts/04-create-plant-level-quantity-contract.md)<br>[06-maintain-contract-monitoring-thresholds](docs/contracts/06-maintain-contract-monitoring-thresholds.md)<br>[02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
-
 | `ME32K` | [02-create-central-quantity-contract](docs/contracts/02-create-central-quantity-contract.md)<br>[04-create-plant-level-quantity-contract](docs/contracts/04-create-plant-level-quantity-contract.md)<br>[05-maintain-source-list-and-monitor-contract-usage](docs/contracts/05-maintain-source-list-and-monitor-contract-usage.md)<br>[06-maintain-contract-monitoring-thresholds](docs/contracts/06-maintain-contract-monitoring-thresholds.md) |
-
 | `ME33K` | [02-create-central-quantity-contract](docs/contracts/02-create-central-quantity-contract.md)<br>[04-create-plant-level-quantity-contract](docs/contracts/04-create-plant-level-quantity-contract.md)<br>[05-maintain-source-list-and-monitor-contract-usage](docs/contracts/05-maintain-source-list-and-monitor-contract-usage.md)<br>[06-maintain-contract-monitoring-thresholds](docs/contracts/06-maintain-contract-monitoring-thresholds.md) |
-
 | `ME3L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME3M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME41` | [02-insert-standard-text-into-purchasing-document](docs/text-management/02-insert-standard-text-into-purchasing-document.md) |
-
 | `ME42` | [03-repeat-create-dom-output](docs/output-management/03-repeat-create-dom-output.md) |
-
 | `ME4L` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME4M` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME4S` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME51N` | [26-create-account-assigned-requisition](docs/purchasing/26-create-account-assigned-requisition.md) |
-
 | `ME54N` | [04-single-release-reject-requisition](docs/release-strategy/04-single-release-reject-requisition.md) |
-
 | `ME55` | [03-release-account-assigned-requisitions](docs/release-strategy/03-release-account-assigned-requisitions.md) |
-
 | `ME57` | [27-convert-account-assigned-requisition](docs/purchasing/27-convert-account-assigned-requisition.md)<br>[01-configure-sap-user-settings](docs/user-settings/01-configure-sap-user-settings.md) |
-
 | `ME5A` | [02-search-purchasing-documents](docs/reporting/02-search-purchasing-documents.md) |
-
 | `ME91A` | [03-remind-contracts-and-rfqs](docs/purchasing-communications/03-remind-contracts-and-rfqs.md) |
-
 | `ME91F` | [01-remind-overdue-purchase-orders](docs/purchasing-communications/01-remind-overdue-purchase-orders.md) |
-
 | `ME92F` | [02-remind-missing-order-confirmations](docs/purchasing-communications/02-remind-missing-order-confirmations.md) |
-
 | `ME92K` | [03-remind-contracts-and-rfqs](docs/purchasing-communications/03-remind-contracts-and-rfqs.md) |
-
 | `ME9K` | [03-repeat-central-contract-output](docs/contracts/03-repeat-central-contract-output.md) |
-
 | `MEKP` | [30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
-
 | `MK01` | [03-create-vendor-and-monitor-workflow](docs/supplier-master/03-create-vendor-and-monitor-workflow.md) |
-
 | `MK02` | [20-maintain-subcontracting-vendor-master](docs/purchasing/20-maintain-subcontracting-vendor-master.md)<br>[02-maintain-vendor-purchasing-texts](docs/supplier-master/02-maintain-vendor-purchasing-texts.md) |
-
 | `MK03` | [06-maintain-source-list](docs/material-planning/06-maintain-source-list.md) |
-
 | `MM01` | [01-prepare-central-contract-master-data](docs/contracts/01-prepare-central-contract-master-data.md)<br>[01-extend-material-to-plant](docs/material-master/01-extend-material-to-plant.md) |
-
 | `MM02` | [21-maintain-subcontracting-material-master](docs/purchasing/21-maintain-subcontracting-material-master.md) |
-
 | `NACE` | [06-configure-classic-message-control-nace](docs/output-management/06-configure-classic-message-control-nace.md) |
-
 | `SBWP` | [10-run-material-master-change-workflow](docs/pdm/10-run-material-master-change-workflow.md)<br>[01-create-supplier-return-from-qm-workitem](docs/supplier-returns/01-create-supplier-return-from-qm-workitem.md)<br>[02-set-workflow-substitute](docs/user-settings/02-set-workflow-substitute.md) |
-
 | `SO10` | [01-create-maintain-standard-texts](docs/text-management/01-create-maintain-standard-texts.md) |
-
 | `SOST` | [03-create-vendor-and-monitor-workflow](docs/supplier-master/03-create-vendor-and-monitor-workflow.md) |
-
 | `SU3` | [01-configure-sap-user-settings](docs/user-settings/01-configure-sap-user-settings.md)<br>[03-set-dom-signature-authority](docs/user-settings/03-set-dom-signature-authority.md) |
-
 | `VL01NO` | [01-create-delivery-without-reference](docs/shipping/01-create-delivery-without-reference.md) |
-
 | `VL02N` | [01-create-delivery-without-reference](docs/shipping/01-create-delivery-without-reference.md) |
-
 | `VL03N` | [01-create-delivery-without-reference](docs/shipping/01-create-delivery-without-reference.md) |
-
 | `XK01` | [01-prepare-central-contract-master-data](docs/contracts/01-prepare-central-contract-master-data.md)<br>[01-extend-vendor-to-company-and-purchasing-org](docs/supplier-master/01-extend-vendor-to-company-and-purchasing-org.md) |
-
 | `ZMMKONDITIONEN` | [29-mass-maintain-purchasing-conditions](docs/purchasing/29-mass-maintain-purchasing-conditions.md)<br>[30-change-info-record-prices-mekp](docs/purchasing/30-change-info-record-prices-mekp.md) |
 
 ## 匿名化规则
